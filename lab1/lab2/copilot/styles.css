@@ -1,11 +1,8 @@
-/* Общие стили */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-/* Шапка */
 header {
     display: flex;
     justify-content: space-between;
@@ -37,9 +34,9 @@ nav ul li a {
     color: black;
 }
 
-/* Hero Banner */
+
 .hero-banner {
-    background: url('your_banner_image.png') no-repeat center center/cover;
+    background: url('banner.png') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
@@ -49,7 +46,6 @@ nav ul li a {
     position: relative;
 }
 
-/* Затемнение фона */
 .hero-banner::before {
     content: "";
     position: absolute;
@@ -60,7 +56,6 @@ nav ul li a {
     background: rgba(0, 0, 0, 0.3);
 }
 
-/* Контейнер текста */
 .banner-content {
     position: relative;
     background: white;
@@ -98,7 +93,6 @@ nav ul li a {
     background-color: #004A8F;
 }
 
-/* Категории */
 .categories ul {
     display: flex;
     justify-content: center;
@@ -118,7 +112,6 @@ nav ul li a {
     margin-right: 5px;
 }
 
-/* Карточки товаров */
 .products {
     display: flex;
     justify-content: space-around;
@@ -142,8 +135,6 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-
-/* Футер */
 footer {
     text-align: center;
     padding: 20px;
