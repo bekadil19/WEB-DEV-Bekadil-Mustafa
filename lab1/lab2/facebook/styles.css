@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 70%;
+    max-width: 1000px;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.left-section h1 {
+    color: #1877f2;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 24px;
+    color: #333;
+    max-width: 500px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-box button {
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.login-btn {
+    background: #1877f2;
+    color: white;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.register-btn {
+    background: #42b72a;
+    color: white;
+    margin-top: 10px;
+}
+
+hr {
+    width: 90%;
+    margin: 15px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+}
+
+.create-page {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.create-page a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.languages li {
+    margin: 0 8px;
+    font-size: 12px;
+    color: gray;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer-links li {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer p {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
